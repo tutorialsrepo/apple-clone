@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.main-header {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  font-size: 18px;
+}
+
+.main-header nav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+}
+
+.main-header nav a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sub-header {
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.home {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+}
+
+.home > * {
+  padding: 10px;
+}
+
+.home a {
+  color: rgb(74, 74, 240);
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
